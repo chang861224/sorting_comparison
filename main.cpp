@@ -23,7 +23,11 @@ int main(int argc, char** argv){
 
     start = clock();
 
-    if((strcmp(method, "mergeSort") == 0) || (strcmp(method, "MergeSort") == 0) || (strcmp(method, "mergesort") == 0)){
+    if((strcmp(method, "bubbleSort") == 0) || (strcmp(method, "BubbleSort") == 0) || (strcmp(method, "bubblesort") == 0)){
+        strcpy(method, "Bubble Sort");
+        mergeSort(array, 0, size - 1);
+    }
+    else if((strcmp(method, "mergeSort") == 0) || (strcmp(method, "MergeSort") == 0) || (strcmp(method, "mergesort") == 0)){
         strcpy(method, "Merge Sort");
         mergeSort(array, 0, size - 1);
     }

@@ -1,7 +1,7 @@
 CC = g++
 CPPFLAGS = -lm
 EXE = main.exe
-OBJS = main.o utils.o sorting/MergeSort.o sorting/HeapSort.o sorting/QuickSort.o
+OBJS = main.o utils.o sorting/MergeSort.o sorting/HeapSort.o sorting/QuickSort.o sorting/BubbleSort.o
 
 $(EXE) : $(OBJS)
 	$(CC) $(CPPFLAGS) -o $(EXE) $(OBJS)
