@@ -8,5 +8,6 @@ using namespace std;
 
 void generateArray(int*, long);
 void printArray(int*, int);
+void swap(int*, int*);
 
 #endif
