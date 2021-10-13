@@ -3,7 +3,13 @@
 
 #include "../utils.h"
 
-void partition(int* arr, int l, int r, int& i, int& j);
-void quickSort(int* arr, int l, int r);
+void DutchPartition(int* arr, int l, int r, int& i, int& j);
+void DutchQuickSort(int* arr, int l, int r);
+
+int LomutoPartition(int* arr, int low, int high);
+void LomutoQuickSort(int* arr, int low, int high);
+
+int HoarePartition(int* arr, int low, int high);
+void HoareQuickSort(int* arr, int low, int high);
 
 #endif
