@@ -1,7 +1,15 @@
 #include "utils.h"
 
-void printArray(int* A, int size){
+void generateArray(int* array, long size){
+    srand(time(NULL));
+
     for(auto i = 0 ; i < size ; i++){
-        cout << A[i] << " ";
+        array[i] = rand();
+    }
+}
+
+void printArray(int* array, int size){
+    for(auto i = 0 ; i < size ; i++){
+        cout << array[i] << " ";
     }
 }

@@ -1,11 +1,13 @@
 #include <iostream>
+#include <cmath>
 #include "sorting/MergeSort.h"
 #include "sorting/HeapSort.h"
 #include "utils.h"
 
 int main(){
-    int size = 6;
-    int* array = new int[size]{4, 1, 2, 8, 0, 9};
+    long size = pow(2, 10);
+    int* array = new int[size];
+    generateArray(array, size);
 
     //mergeSort(array, 0, size - 1);
     heapSort(array, size);
