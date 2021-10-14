@@ -18,7 +18,7 @@ int main(int argc, char** argv){
         cout << "\t-index <int>" << endl;
         cout << "\t\tThe index based on 2, which means the length of the number array. Default is 10." << endl;
         cout << "\t-method <string>" << endl;
-        cout << "\t\tThe sorting method. Default is `BubleSort`." << endl;
+        cout << "\t\tThe sorting method. Default is `BubbleSort`." << endl;
         cout << "\t\tHere is the method options:" << endl;
         cout << "\t\t1)BubbleSort 2)InsertionSort 3)MergeSort 4)HeapSort 5)DutchQuickSort 6)LomutoQuickSort 7)HoareQuickSort" << endl;
         cout << "\t-save <string>" << endl;
